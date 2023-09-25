@@ -7,7 +7,6 @@ This project is to simulate a high cylinder motorcycle loan with the following o
 2. implemented with Screenplay pattern
 3. Screenplay architecture: Interaction,Tasks,Question,user_interface,runner,step_definitions,models,
    exceptions
-
 # Build and Test
 # Need
 This project is to simulate a high cylinder motorcycle loan
