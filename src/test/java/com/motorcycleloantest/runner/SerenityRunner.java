@@ -1,5 +1,6 @@
 package com.motorcycleloantest.runner;
 
+import com.motorcycleloantest.interactions.ClickOnButton;
 import com.motorcycleloantest.screenplay.interactions.OpenBrowser;
 import com.motorcycleloantest.screenplay.tasks.NavigateToPage;
 import com.motorcycleloantest.screenplay.user_interface.HomePage;
@@ -27,7 +28,6 @@ public class MotorcycleLoanTestSuite {
 
     @Test
     public void solicitarPrestamoParaMotocicletaConValoresYPlazosValidos() {
-
         Actor actor = Actor.named("Juan");
         actor.can(BrowseTheWeb.with(System.getProperty("browser")));
         actor.attemptsTo(OpenBrowser.with(System.getProperty("browser")));
@@ -41,7 +41,6 @@ public class MotorcycleLoanTestSuite {
 
     @Test
     public void solicitarPrestamoParaMotocicletaConValoresYPlazosInvalidos() {
-
         Actor actor = Actor.named("Juan");
         actor.can(BrowseTheWeb.with(System.getProperty("browser")));
         actor.attemptsTo(OpenBrowser.with(System.getProperty("browser")));
@@ -55,7 +54,6 @@ public class MotorcycleLoanTestSuite {
 
     @Test
     public void solicitarPrestamoParaMotocicletaConUnValorIngresadoConCaracteresNoNumericos() {
-
         Actor actor = Actor.named("Juan");
         actor.can(BrowseTheWeb.with(System.getProperty("browser")));
         actor.attemptsTo(OpenBrowser.with(System.getProperty("browser")));

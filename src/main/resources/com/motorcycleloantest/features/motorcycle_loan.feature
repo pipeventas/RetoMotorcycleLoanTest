@@ -6,7 +6,7 @@ Feature: Apply for a motorcycle loan
 
   Scenario: Applying for a motorcycle loan with valid value
     Given that the actor is on Bancolombia's homepage
-    When the actor requests a motorcycle loan with a value of $100,000
+    When the actor requests a motorcycle loan with a value of $19,350,355
     Then the actor should see a success message
 
   Scenario: Request motorcycle loan with various values (Use Limit Values Criteria)
