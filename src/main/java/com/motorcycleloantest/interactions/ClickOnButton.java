@@ -1,7 +1,8 @@
 package com.motorcycleloantest.interactions;
-public class ClickOnButton {
-    import net.serenitybdd.screenplay.Interaction;
+import net.serenitybdd.screenplay.Interaction;
 import org.openqa.selenium.WebElement;
+
+public class ClickOnButton {
 
     public class ClickOnButton implements Interaction {
 
